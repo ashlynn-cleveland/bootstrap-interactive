@@ -1,2 +1,5 @@
 # bootstrap-interactive
-This is a practice project to help me get more familiarized with Bootstrap and DOM manipulation.
+This is a practice project to help familiarize myself with Bootstrap and DOM manipulation.
+
+
+High-Fidelity Wireframe: 
