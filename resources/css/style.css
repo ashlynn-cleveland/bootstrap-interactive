@@ -16,7 +16,7 @@ header {
     display: flex;
     flex-direction: row;
     align-items: center;
-    background-color: rgb(238, 231, 201);
+    background-color: #F3F1F1;
 }
 
 
@@ -46,12 +46,12 @@ nav ul li {
 }
 
 nav ul li a {
-    color: black;
+    color: #000000;
     text-decoration: none;
     font-size: 1.25rem;
 }
 
 nav ul li a:hover {
     font-weight: bold;
-    color: black;
+    color: #000000;
 }
