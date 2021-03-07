@@ -1,0 +1,143 @@
+/* Universal Styles */
+
+html,
+body {
+    min-height: 100vh;
+}
+
+body {
+    margin: 0;
+}
+
+
+/* Header Styles */
+
+header {
+    height: 100px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    background-color: #F3F1F1;
+}
+
+
+/* Nav Styles */
+
+nav {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    margin: 0 1.5rem;
+}
+
+nav img {
+    width: 100px;
+    height: auto;
+}
+
+nav ul {
+    list-style: none;
+    margin: 0;
+}
+
+nav ul li {
+    display: inline-block;
+    margin: 0 0.5rem;
+}
+
+nav ul li a {
+    color: #575757;
+    text-decoration: none;
+    font-size: 1.25rem;
+    font-weight: bold;
+}
+
+nav ul li a:hover {
+    color: #000000;
+}
+
+nav ul li a#current-page {
+    color: #000000;
+}
+
+
+/* Main Styles */
+
+main {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    height: calc(100vh - 200px);
+}
+
+#snack-background {
+    background-image: url(../images/background-image.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-position: center
+}
+
+
+/* Contact-Info Styles */
+
+#contact-info {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding: 5rem 0;
+}
+
+#contact-info section {
+    margin: 0 2rem;
+}
+
+#contact-info ul {
+    padding-left: 0;
+}
+
+#contact-info a {
+    margin-bottom: 1.25rem;
+}
+
+#contact-info h2,
+#contact-info address {
+    text-align: center;
+}
+
+#call-us,
+#email-us,
+#survey {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+
+/* Footer Styles */
+
+footer {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 1.5rem;
+    background-color: rgb(211, 211, 211);
+    height: 100px;
+}
+
+footer p {
+    margin-bottom: 0;
+}
+
+#footer__follow-us {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    width: 15%;
+}
