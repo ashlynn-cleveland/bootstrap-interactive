@@ -79,10 +79,11 @@ nav ul li a#current-page {
     flex-direction: row;
     justify-content: center;
     align-items: center;
+    padding: 5rem 0;
 }
 
 #contact-info section {
-    margin: 0 1rem;
+    margin: 0 2rem;
 }
 
 #contact-info ul {
