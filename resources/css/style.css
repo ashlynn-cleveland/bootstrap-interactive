@@ -60,3 +60,45 @@ nav ul li a:hover {
 nav ul li a#current-page {
     color: #000000;
 }
+
+
+/* Hero Section Styles */
+
+#hero {
+    background-image: url("../images/hero.jpg");
+    background-position: center;
+    background-repeat: none;
+    background-size: cover;
+    height: 1080px;
+}
+
+#hero__info {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    background-color: rgba(68, 68, 68, 0.75);
+    color: white;
+    text-align: center;
+    width: 800px;
+    border-radius: 30px;
+    position: relative;
+    top: 25px;
+    left: 25px;
+    padding: 3rem 0;
+}
+
+#hero__info h1 {
+    text-transform: uppercase;
+}
+
+#hero__info .button-group {
+    margin-bottom: 1rem;
+}
+
+#hero button {
+    margin: 0 1rem;
+    padding: 0.25rem 2rem;
+    border-radius: 10px;
+    text-transform: uppercase;
+}
