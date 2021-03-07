@@ -38,6 +38,7 @@ nav img {
 
 nav ul {
     list-style: none;
+    margin: 0;
 }
 
 nav ul li {
@@ -46,12 +47,16 @@ nav ul li {
 }
 
 nav ul li a {
-    color: #000000;
+    color: #575757;
     text-decoration: none;
     font-size: 1.25rem;
+    font-weight: bold;
 }
 
 nav ul li a:hover {
-    font-weight: bold;
+    color: #000000;
+}
+
+nav ul li a#current-page {
     color: #000000;
 }
