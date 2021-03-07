@@ -96,7 +96,8 @@ nav ul li a#current-page {
     margin-bottom: 1rem;
 }
 
-#hero button {
+#hero button,
+#intro-para button {
     margin: 0 1rem;
     padding: 0.25rem 2rem;
     border-radius: 10px;
