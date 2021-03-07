@@ -7,3 +7,38 @@ html {
 body {
     margin: 0;
 }
+
+
+/* Nav Styles */
+
+nav {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin: 0 1.5rem;
+}
+
+nav img {
+    width: 50px;
+    height: auto;
+}
+
+nav ul {
+    list-style: none;
+}
+
+nav ul li {
+    display: inline-block;
+    margin: 0 0.5rem;
+}
+
+nav ul li a {
+    color: black;
+    text-decoration: none;
+}
+
+nav ul li a:hover {
+    font-weight: bold;
+    text-decoration: underline;
+    color: black;
+}
