@@ -152,3 +152,15 @@ nav ul li a#current-page {
 #hours address {
     text-align: center;
 }
+
+
+/* Testimonials Section Styles */
+
+#testimonials {
+    text-align: center;
+    margin: 5rem 0;
+}
+
+#testimonials h2 {
+    margin-bottom: 1rem;
+}
