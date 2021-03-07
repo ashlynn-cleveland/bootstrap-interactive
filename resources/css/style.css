@@ -102,3 +102,15 @@ nav ul li a#current-page {
     border-radius: 10px;
     text-transform: uppercase;
 }
+
+
+/* Intro-para Section Styles */
+
+#intro-para {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    margin: 5rem 0;
+}
