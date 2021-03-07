@@ -72,6 +72,16 @@ nav ul li a#current-page {
 }
 
 
+/* Contact-Info Styles */
+
+#contact-info {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+
 /* Footer Styles */
 
 footer {
