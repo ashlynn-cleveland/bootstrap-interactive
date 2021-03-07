@@ -81,6 +81,32 @@ nav ul li a#current-page {
     align-items: center;
 }
 
+#contact-info section {
+    margin: 0 1rem;
+}
+
+#contact-info ul {
+    padding-left: 0;
+}
+
+#contact-info a {
+    margin-bottom: 1.25rem;
+}
+
+#contact-info h2,
+#contact-info address {
+    text-align: center;
+}
+
+#call-us,
+#email-us,
+#survey {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
 
 /* Footer Styles */
 
