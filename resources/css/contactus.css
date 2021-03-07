@@ -1,7 +1,8 @@
 /* Universal Styles */
 
-html {
-    min-height: 100%;
+html,
+body {
+    min-height: 100vh;
 }
 
 body {
@@ -63,6 +64,14 @@ nav ul li a#current-page {
 
 
 /* Main Styles */
+
+main {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    height: calc(100vh - 200px);
+}
 
 #snack-background {
     background-image: url(../images/background-image.png);
