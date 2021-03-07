@@ -164,3 +164,28 @@ nav ul li a#current-page {
 #testimonials h2 {
     margin-bottom: 1rem;
 }
+
+
+/* Footer Styles */
+
+footer {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 1.5rem;
+    background-color: rgb(211, 211, 211);
+    height: 100px;
+}
+
+footer p {
+    margin-bottom: 0;
+}
+
+#footer__follow-us {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    width: 15%;
+}
