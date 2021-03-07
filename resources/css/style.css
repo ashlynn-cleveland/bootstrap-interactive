@@ -9,6 +9,17 @@ body {
 }
 
 
+/* Header Styles */
+
+header {
+    height: 100px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    background-color: rgb(238, 231, 201);
+}
+
+
 /* Nav Styles */
 
 nav {
