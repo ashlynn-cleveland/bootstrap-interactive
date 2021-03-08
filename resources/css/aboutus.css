@@ -4,6 +4,10 @@ body {
     margin: 0;
 }
 
+h1 {
+    font-size: 2rem;
+}
+
 
 /* Header Styles */
 
@@ -65,7 +69,17 @@ main {
     flex-direction: row;
     justify-content: center;
     align-items: center;
-    margin: 5rem 0;
+    height: calc(100vh - 200px);
+}
+
+main img {
+    width: 250px;
+    height: auto;
+}
+
+main article {
+    text-align: center;
+    margin-left: 10rem;
 }
 
 #snack-background {
