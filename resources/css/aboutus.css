@@ -60,6 +60,14 @@ nav ul li a#current-page {
 
 /* Main Styles */
 
+main {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    margin: 5rem 0;
+}
+
 #snack-background {
     background-image: url(../images/background-image.png);
     background-position: center;
