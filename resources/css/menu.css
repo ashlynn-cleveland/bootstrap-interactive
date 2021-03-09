@@ -103,6 +103,11 @@ nav ul li a#current-page {
     height: 100%;
 }
 
+.category ul {
+    list-style: none;
+    padding-left: 0;
+}
+
 .category li {
     height: 56px;
     margin-bottom: 0.75rem;
