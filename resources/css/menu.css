@@ -150,6 +150,11 @@ nav ul li a#current-page {
     text-transform: uppercase;
 }
 
+#carousel {
+    width: 75%;
+    margin: 3rem auto;
+}
+
 
 /* Footer Styles */
 
