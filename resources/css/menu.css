@@ -67,6 +67,13 @@ nav ul li a#current-page {
     background-position: center
 }
 
+.menu {
+    display: grid;
+    grid-template: 1fr 1fr 1fr / 1fr 1fr;
+    justify-items: center;
+    align-items: center;
+}
+
 
 /* Footer Styles */
 
