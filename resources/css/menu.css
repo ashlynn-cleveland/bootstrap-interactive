@@ -79,17 +79,18 @@ nav ul li a#current-page {
 .menu {
     display: grid;
     grid-template: 1fr 1fr 1fr / 1fr 1fr;
-    justify-items: center;
-    align-items: center;
     background-color: brown;
-    align-content: space-around;
-    justify-content: space-evenly;
-    padding: 1rem 0;
+    padding: 1rem;
+    grid-gap: 16px;
+    width: 70%;
+    margin: 0 auto;
 }
 
 .category {
     background-color: rgb(247, 244, 212);
     padding: 1rem;
+    width: 100%;
+    height: 100%;
 }
 
 .title-and-price {
