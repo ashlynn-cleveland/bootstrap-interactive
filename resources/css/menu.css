@@ -81,6 +81,21 @@ nav ul li a#current-page {
     grid-template: 1fr 1fr 1fr / 1fr 1fr;
     justify-items: center;
     align-items: center;
+    background-color: brown;
+    align-content: space-around;
+    justify-content: space-evenly;
+    padding: 1rem 0;
+}
+
+.category {
+    background-color: rgb(247, 244, 212);
+    padding: 1rem;
+}
+
+.title-and-price {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
 }
 
 
