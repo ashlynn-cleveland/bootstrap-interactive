@@ -3,6 +3,7 @@
 body {
     margin: 0;
     line-height: 1.25;
+    font-family: 'Ubuntu', sans-serif;
 }
 
 h1 {
@@ -18,6 +19,7 @@ h2 {
 
 h3 {
     font-size: 1.2rem;
+    font-weight: bold;
 }
 
 p,
@@ -121,9 +123,12 @@ nav ul li a#current-page {
     font-style: italic;
 }
 
-.price,
-.bold {
+.price {
     font-weight: bold;
+}
+
+.bold {
+    font-weight: 600;
 }
 
 .small {

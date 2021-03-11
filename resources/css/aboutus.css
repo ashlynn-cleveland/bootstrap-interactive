@@ -2,10 +2,12 @@
 
 body {
     margin: 0;
+    font-family: 'Ubuntu', sans-serif;
 }
 
 h1 {
     font-size: 2rem;
+    margin-bottom: 0;
 }
 
 
@@ -80,6 +82,17 @@ main img {
 main article {
     text-align: center;
     margin-left: 10rem;
+}
+
+main article p {
+    max-width: 400px;
+}
+
+#about-para {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-items: center;
 }
 
 #snack-background {

@@ -2,6 +2,7 @@
 
 body {
     margin: 0;
+    font-family: 'Ubuntu', sans-serif;
 }
 
 
@@ -120,6 +121,10 @@ nav ul li a#current-page {
     justify-content: center;
     text-align: center;
     margin: 5rem 0;
+}
+
+#intro-para p {
+    max-width: 425px;
 }
 
 
