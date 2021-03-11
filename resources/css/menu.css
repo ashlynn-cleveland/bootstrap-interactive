@@ -160,6 +160,11 @@ nav ul li a#current-page {
     margin: 3rem auto;
 }
 
+.carousel-control-next,
+.carousel-control-prev {
+    opacity: 0.7;
+}
+
 
 /* Footer Styles */
 
