@@ -123,9 +123,12 @@ nav ul li a#current-page {
     font-style: italic;
 }
 
-.price,
-.bold {
+.price {
     font-weight: bold;
+}
+
+.bold {
+    font-weight: 600;
 }
 
 .small {
