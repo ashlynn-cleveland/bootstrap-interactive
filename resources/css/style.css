@@ -122,6 +122,10 @@ nav ul li a#current-page {
     margin: 5rem 0;
 }
 
+#intro-para p {
+    max-width: 425px;
+}
+
 
 /* Hours Section Styles */
 
