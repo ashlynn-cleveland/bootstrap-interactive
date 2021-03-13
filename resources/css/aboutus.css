@@ -130,6 +130,9 @@ main article p {
     main article {
         margin-left: 0;
     }
+    #about-para p {
+        margin-bottom: 0;
+    }
 }
 
 
