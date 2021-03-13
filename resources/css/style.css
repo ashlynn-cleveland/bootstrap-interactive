@@ -64,6 +64,9 @@ nav ul li a#current-page {
         justify-content: center;
         padding: 1rem 0;
     }
+    nav ul {
+        margin-top: 1rem;
+    }
 }
 
 
