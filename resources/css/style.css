@@ -181,6 +181,16 @@ nav ul li a#current-page {
     text-align: center;
 }
 
+@media only screen and (max-width: 610px) {
+    #hours__flexbox {
+        flex-direction: column;
+    }
+    #hours__flexbox ul {
+        text-align: center;
+        padding-left: 0;
+    }
+}
+
 
 /* Testimonials Section Styles */
 
