@@ -9,7 +9,7 @@ body {
 /* Header Styles */
 
 header {
-    height: 100px;
+    min-height: 100px;
     display: flex;
     flex-direction: row;
     align-items: center;
@@ -58,6 +58,26 @@ nav ul li a#current-page {
     color: #000000;
 }
 
+@media only screen and (max-width: 610px) {
+    nav {
+        flex-direction: column;
+        justify-content: center;
+        padding: 1rem 0;
+    }
+    nav ul {
+        margin-top: 1rem;
+        padding-left: 0;
+    }
+}
+
+@media only screen and (max-width: 440px) {
+    nav ul {
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+    }
+}
+
 
 /* Main Styles */
 
@@ -65,7 +85,8 @@ nav ul li a#current-page {
     background-image: url(../images/background-image.png);
     background-position: center;
     background-repeat: no-repeat;
-    background-position: center
+    background-position: center;
+    padding: 1rem;
 }
 
 
@@ -87,12 +108,20 @@ nav ul li a#current-page {
     background-color: rgba(68, 68, 68, 0.75);
     color: white;
     text-align: center;
-    width: 800px;
+    max-width: 800px;
     border-radius: 30px;
     position: relative;
     top: 25px;
     left: 25px;
-    padding: 3rem 0;
+    padding: 3rem 1rem;
+}
+
+#hero button,
+#intro-para button {
+    margin: 0 1rem;
+    padding: 0.25rem 2rem;
+    border-radius: 10px;
+    text-transform: uppercase;
 }
 
 #hero__info h1 {
@@ -103,12 +132,27 @@ nav ul li a#current-page {
     margin-bottom: 1rem;
 }
 
-#hero button,
-#intro-para button {
-    margin: 0 1rem;
-    padding: 0.25rem 2rem;
-    border-radius: 10px;
-    text-transform: uppercase;
+@media only screen and (max-width: 1320px) {
+    #hero {
+        padding-top: 25px;
+    }
+    #hero__info {
+        position: static;
+        margin: 0 auto;
+    }
+}
+
+@media only screen and (max-width: 900px) {
+    #hero {
+        padding-left: 2rem;
+        padding-right: 2rem;
+    }
+}
+
+@media only screen and (max-width: 540px) {
+    #hero button {
+        margin: 1rem;
+    }
 }
 
 
@@ -125,6 +169,12 @@ nav ul li a#current-page {
 
 #intro-para p {
     max-width: 425px;
+}
+
+@media only screen and (max-width: 490px) {
+    #intro-para button {
+        margin: 1rem;
+    }
 }
 
 
@@ -164,6 +214,16 @@ nav ul li a#current-page {
     text-align: center;
 }
 
+@media only screen and (max-width: 610px) {
+    #hours__flexbox {
+        flex-direction: column;
+    }
+    #hours__flexbox ul {
+        text-align: center;
+        padding-left: 0;
+    }
+}
+
 
 /* Testimonials Section Styles */
 
@@ -191,6 +251,7 @@ footer {
 
 footer p {
     margin-bottom: 0;
+    margin-right: 0.5rem;
 }
 
 #footer__follow-us {
@@ -198,5 +259,22 @@ footer p {
     flex-direction: row;
     justify-content: space-between;
     align-items: center;
-    width: 15%;
+}
+
+#footer__follow-us i {
+    margin: 0 0.5rem;
+}
+
+#footer__follow-us p {
+    margin-left: 0.5rem;
+}
+
+@media only screen and (max-width: 490px) {
+    footer {
+        flex-direction: column;
+        justify-content: center;
+    }
+    #footer__follow-us {
+        margin-top: 1rem;
+    }
 }
