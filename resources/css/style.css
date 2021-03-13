@@ -66,6 +66,7 @@ nav ul li a#current-page {
     }
     nav ul {
         margin-top: 1rem;
+        padding-left: 0;
     }
 }
 
