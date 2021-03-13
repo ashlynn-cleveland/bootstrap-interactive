@@ -122,6 +122,15 @@ main article p {
     background-position: center
 }
 
+@media only screen and (max-width: 900px) {
+    main {
+        flex-direction: column;
+    }
+    main article {
+        margin-left: 0;
+    }
+}
+
 
 /* Footer Styles */
 
