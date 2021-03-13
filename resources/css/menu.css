@@ -133,7 +133,7 @@ nav ul li a#current-page {
 }
 
 .category li {
-    height: 56px;
+    min-height: 56px;
     margin-bottom: 0.75rem;
 }
 
