@@ -97,7 +97,7 @@ nav ul li a#current-page {
 
 @media only screen and (max-width: 1320px) {
     #hero {
-        padding: 2rem;
+        padding-top: 25px;
     }
     #hero__info {
         position: static;
