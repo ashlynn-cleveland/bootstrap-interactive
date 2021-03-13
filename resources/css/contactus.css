@@ -133,6 +133,7 @@ footer {
 
 footer p {
     margin-bottom: 0;
+    margin-right: 0.5rem;
 }
 
 #footer__follow-us {
@@ -140,5 +141,22 @@ footer p {
     flex-direction: row;
     justify-content: space-between;
     align-items: center;
-    width: 15%;
+}
+
+#footer__follow-us i {
+    margin: 0 0.5rem;
+}
+
+#footer__follow-us p {
+    margin-left: 0.5rem;
+}
+
+@media only screen and (max-width: 490px) {
+    footer {
+        flex-direction: column;
+        justify-content: center;
+    }
+    #footer__follow-us {
+        margin-top: 1rem;
+    }
 }
