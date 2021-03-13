@@ -91,7 +91,7 @@ main {
     flex-direction: row;
     align-items: center;
     justify-content: center;
-    height: calc(100vh - 200px);
+    min-height: calc(100vh - 200px);
 }
 
 #snack-background {
