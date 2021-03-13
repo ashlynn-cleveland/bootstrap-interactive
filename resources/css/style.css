@@ -95,6 +95,22 @@ nav ul li a#current-page {
     padding: 3rem 0;
 }
 
+#hero button,
+#intro-para button {
+    margin: 0 1rem;
+    padding: 0.25rem 2rem;
+    border-radius: 10px;
+    text-transform: uppercase;
+}
+
+#hero__info h1 {
+    text-transform: uppercase;
+}
+
+#hero__info .button-group {
+    margin-bottom: 1rem;
+}
+
 @media only screen and (max-width: 1320px) {
     #hero {
         padding-top: 25px;
@@ -110,22 +126,6 @@ nav ul li a#current-page {
         padding-left: 2rem;
         padding-right: 2rem;
     }
-}
-
-#hero__info h1 {
-    text-transform: uppercase;
-}
-
-#hero__info .button-group {
-    margin-bottom: 1rem;
-}
-
-#hero button,
-#intro-para button {
-    margin: 0 1rem;
-    padding: 0.25rem 2rem;
-    border-radius: 10px;
-    text-transform: uppercase;
 }
 
 
