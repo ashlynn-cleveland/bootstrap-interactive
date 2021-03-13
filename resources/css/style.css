@@ -255,3 +255,13 @@ footer p {
 #footer__follow-us i {
     margin: 0 0.5rem;
 }
+
+@media only screen and (max-width: 490px) {
+    footer {
+        flex-direction: column;
+        justify-content: center;
+    }
+    #footer__follow-us {
+        margin-top: 1rem;
+    }
+}
