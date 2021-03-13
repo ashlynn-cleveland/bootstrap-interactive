@@ -76,7 +76,8 @@ nav ul li a#current-page {
     background-image: url(../images/background-image.png);
     background-position: center;
     background-repeat: no-repeat;
-    background-position: center
+    background-position: center;
+    padding: 1rem;
 }
 
 
