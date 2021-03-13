@@ -32,7 +32,7 @@ h3 {
 /* Header Styles */
 
 header {
-    height: 100px;
+    min-height: 100px;
     display: flex;
     flex-direction: row;
     align-items: center;
@@ -81,6 +81,26 @@ nav ul li a#current-page {
     color: #000000;
 }
 
+@media only screen and (max-width: 610px) {
+    nav {
+        flex-direction: column;
+        justify-content: center;
+        padding: 1rem 0;
+    }
+    nav ul {
+        margin-top: 1rem;
+        padding-left: 0;
+    }
+}
+
+@media only screen and (max-width: 440px) {
+    nav ul {
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+    }
+}
+
 
 /* Main Styles */
 
@@ -113,7 +133,7 @@ nav ul li a#current-page {
 }
 
 .category li {
-    height: 56px;
+    min-height: 56px;
     margin-bottom: 0.75rem;
 }
 
@@ -126,19 +146,19 @@ nav ul li a#current-page {
 
 .price {
     font-weight: bold;
-}
-
-.bold {
-    font-weight: 600;
+    margin-left: 1.5rem;
 }
 
 .small {
     font-size: 0.75rem;
+    margin-right: 2rem;
+    display: inline-block;
 }
 
 #deal {
     text-align: center;
     font-style: italic;
+    font-size: 0.8rem;
 }
 
 .button-group {
@@ -166,6 +186,35 @@ nav ul li a#current-page {
     opacity: 0.7;
 }
 
+@media only screen and (max-width: 1400px) {
+    .menu {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+    .category {
+        max-width: 536px;
+    }
+}
+
+@media only screen and (max-width: 600px) {
+    .specials .title-and-price {
+        flex-direction: column;
+        justify-content: center;
+        text-align: center;
+    }
+    .specials .title-and-price p {
+        margin-top: 0.5rem;
+    }
+    .button-group {
+        flex-direction: column;
+    }
+    .button-group button {
+        margin-top: 1rem;
+    }
+}
+
 
 /* Footer Styles */
 
@@ -181,6 +230,7 @@ footer {
 
 footer p {
     margin-bottom: 0;
+    margin-right: 0.5rem;
 }
 
 #footer__follow-us {
@@ -188,5 +238,22 @@ footer p {
     flex-direction: row;
     justify-content: space-between;
     align-items: center;
-    width: 15%;
+}
+
+#footer__follow-us i {
+    margin: 0 0.5rem;
+}
+
+#footer__follow-us p {
+    margin-left: 0.5rem;
+}
+
+@media only screen and (max-width: 490px) {
+    footer {
+        flex-direction: column;
+        justify-content: center;
+    }
+    #footer__follow-us {
+        margin-top: 1rem;
+    }
 }
