@@ -32,7 +32,7 @@ h3 {
 /* Header Styles */
 
 header {
-    height: 100px;
+    min-height: 100px;
     display: flex;
     flex-direction: row;
     align-items: center;
@@ -79,6 +79,26 @@ nav ul li a:hover {
 
 nav ul li a#current-page {
     color: #000000;
+}
+
+@media only screen and (max-width: 610px) {
+    nav {
+        flex-direction: column;
+        justify-content: center;
+        padding: 1rem 0;
+    }
+    nav ul {
+        margin-top: 1rem;
+        padding-left: 0;
+    }
+}
+
+@media only screen and (max-width: 440px) {
+    nav ul {
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+    }
 }
 
 
