@@ -154,6 +154,8 @@ nav ul li a#current-page {
 
 .small {
     font-size: 0.75rem;
+    margin-right: 2rem;
+    display: inline-block;
 }
 
 #deal {
