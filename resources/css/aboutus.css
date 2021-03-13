@@ -166,6 +166,7 @@ footer p {
 
 #footer__follow-us p {
     margin-left: 0.5rem;
+    margin-top: 0;
 }
 
 @media only screen and (max-width: 490px) {
