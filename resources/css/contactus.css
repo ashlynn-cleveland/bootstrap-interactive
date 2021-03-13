@@ -150,6 +150,9 @@ main {
     #contact-info {
         flex-direction: column;
     }
+    #contact-info #email-us {
+        margin-top: 2rem;
+    }
 }
 
 
