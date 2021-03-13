@@ -103,7 +103,7 @@ nav ul li a#current-page {
     position: relative;
     top: 25px;
     left: 25px;
-    padding: 3rem 0;
+    padding: 3rem 1rem;
 }
 
 #hero button,
