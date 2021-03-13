@@ -158,6 +158,7 @@ nav ul li a#current-page {
 #deal {
     text-align: center;
     font-style: italic;
+    font-size: 0.8rem;
 }
 
 .button-group {
