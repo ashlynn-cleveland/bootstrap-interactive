@@ -58,6 +58,15 @@ nav ul li a#current-page {
     color: #000000;
 }
 
+@media only screen and (max-width: 610px) {
+    nav {
+        flex-direction: column;
+        justify-content: center;
+        height: auto;
+        padding: 1rem 0;
+    }
+}
+
 
 /* Main Styles */
 
