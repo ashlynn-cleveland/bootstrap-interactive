@@ -5,6 +5,10 @@ body {
     font-family: 'Ubuntu', 'Roboto', sans-serif;
 }
 
+h2 {
+    font-weight: bold;
+}
+
 
 /* Header Styles */
 

@@ -14,7 +14,7 @@ body {
 /* Header Styles */
 
 header {
-    height: 100px;
+    min-height: 100px;
     display: flex;
     flex-direction: row;
     align-items: center;
@@ -63,6 +63,26 @@ nav ul li a#current-page {
     color: #000000;
 }
 
+@media only screen and (max-width: 610px) {
+    nav {
+        flex-direction: column;
+        justify-content: center;
+        padding: 1rem 0;
+    }
+    nav ul {
+        margin-top: 1rem;
+        padding-left: 0;
+    }
+}
+
+@media only screen and (max-width: 440px) {
+    nav ul {
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+    }
+}
+
 
 /* Main Styles */
 
@@ -71,7 +91,8 @@ main {
     flex-direction: row;
     align-items: center;
     justify-content: center;
-    height: calc(100vh - 200px);
+    min-height: calc(100vh - 200px);
+    padding: 2rem;
 }
 
 #snack-background {
@@ -98,6 +119,12 @@ main {
 
 #contact-info ul {
     padding-left: 0;
+    list-style: none;
+    text-align: center;
+}
+
+#contact-info ul li {
+    margin: 1rem 0;
 }
 
 #contact-info a {
@@ -107,6 +134,7 @@ main {
 #contact-info h2,
 #contact-info address {
     text-align: center;
+    font-weight: bold;
 }
 
 #call-us,
@@ -116,6 +144,16 @@ main {
     flex-direction: column;
     justify-content: center;
     align-items: center;
+}
+
+@media only screen and (max-width: 975px) {
+    #contact-info {
+        flex-direction: column;
+        padding: 3rem 0 1rem 0;
+    }
+    #contact-info #email-us {
+        margin-top: 2rem;
+    }
 }
 
 
@@ -133,6 +171,7 @@ footer {
 
 footer p {
     margin-bottom: 0;
+    margin-right: 0.5rem;
 }
 
 #footer__follow-us {
@@ -140,5 +179,23 @@ footer p {
     flex-direction: row;
     justify-content: space-between;
     align-items: center;
-    width: 15%;
+}
+
+#footer__follow-us i {
+    margin: 0 0.5rem;
+}
+
+#footer__follow-us p {
+    margin-left: 0.5rem;
+    margin-top: 0;
+}
+
+@media only screen and (max-width: 490px) {
+    footer {
+        flex-direction: column;
+        justify-content: center;
+    }
+    #footer__follow-us {
+        margin-top: 1rem;
+    }
 }
