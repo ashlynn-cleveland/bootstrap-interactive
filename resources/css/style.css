@@ -95,6 +95,17 @@ nav ul li a#current-page {
     padding: 3rem 0;
 }
 
+@media only screen and (max-width: 1320px) {
+    #hero {
+        padding: 2rem;
+    }
+    
+    #hero__info {
+        position: static;
+        margin: 0 auto;
+    }
+}
+
 #hero__info h1 {
     text-transform: uppercase;
 }
