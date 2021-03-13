@@ -62,7 +62,6 @@ nav ul li a#current-page {
     nav {
         flex-direction: column;
         justify-content: center;
-        height: auto;
         padding: 1rem 0;
     }
 }
