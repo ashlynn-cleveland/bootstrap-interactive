@@ -104,6 +104,19 @@ nav ul li a#current-page {
 
 /* Main Styles */
 
+#redirect {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 1.75rem 2.5rem;
+    background-color: white;
+    border: 4px solid rgb(248, 246, 246);
+    border-radius: 25px;
+    position: absolute;
+    display: none;
+}
+
 #snack-background {
     background-image: url(../images/background-image.png);
     background-position: center;
