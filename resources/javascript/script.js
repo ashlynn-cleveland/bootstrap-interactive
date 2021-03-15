@@ -5,7 +5,7 @@ const message = document.getElementById('redirect');
 function redirect(event) {
     event.target.closest('body').style.backgroundColor = 'gray';
     event.target.closest('body').style.opacity = '40%'
-    message.style.display = 'visible';
+    message.style.display = 'block';
 };
 
 order.addEventListener('click', redirect);
