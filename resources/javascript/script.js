@@ -10,3 +10,4 @@ function redirect(event) {
 };
 
 order.addEventListener('click', redirect);
+book.addEventListener('click', redirect);
