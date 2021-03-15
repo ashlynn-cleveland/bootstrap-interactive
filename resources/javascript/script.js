@@ -8,13 +8,13 @@ function redirect(event) {
     event.target.closest('body').style.opacity = '40%';
     setTimeout(function() {
         if (confirm('Thank you for your business! :)')) {
-            event.target.closest('body').style.backgroundColor = 'none';
+            event.target.closest('body').style.backgroundColor = 'transparent';
             event.target.closest('body').style.opacity = '100%';
         }
     }, 1000);
 };
 
 order_one.addEventListener('click', redirect);
-order_two.addEventListener('click', redirect);
 book_one.addEventListener('click', redirect);
+order_two.addEventListener('click', redirect);
 book_two.addEventListener('click', redirect);
