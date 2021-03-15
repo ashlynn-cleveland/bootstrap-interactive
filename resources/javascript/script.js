@@ -4,8 +4,8 @@ const message = document.getElementById('redirect');
 
 function redirect(event) {
     event.target.closest('body').style.backgroundColor = 'gray';
-    event.target.closest('body').style.opacity = '40%'
-    message.style.display = 'block';
+    event.target.closest('body').style.opacity = '40%';
+    alert('Thank you for your business! :)');
 };
 
 order.addEventListener('click', redirect);
