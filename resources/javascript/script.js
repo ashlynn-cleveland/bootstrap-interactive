@@ -1,6 +1,7 @@
-const order = document.getElementById('order_one');
-const book = document.getElementById('book_one');
-const message = document.getElementById('redirect');
+const order_one = document.getElementById('order_one');
+const order_two = document.getElementById('order_two');
+const book_one = document.getElementById('book_one');
+const book_two = document.getElementById('book_two');
 
 function redirect(event) {
     event.target.closest('body').style.backgroundColor = 'gray';
@@ -13,5 +14,7 @@ function redirect(event) {
     }, 1000);
 };
 
-order.addEventListener('click', redirect);
-book.addEventListener('click', redirect);
+order_one.addEventListener('click', redirect);
+order_two.addEventListener('click', redirect);
+book_one.addEventListener('click', redirect);
+book_two.addEventListener('click', redirect);
