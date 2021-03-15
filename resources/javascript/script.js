@@ -2,11 +2,8 @@ const order = document.getElementById('order_one');
 const book = document.getElementById('book_one');
 
 function redirect(event) {
-    event.target.closest('body').innerHTML =
-        `<div id="redirect">
-          <p>Thank you for your business! :)<p>
-          <button type="button" class="btn btn-outline-danger">Exit</button>
-        </div>`;
+    event.target.closest('body').style.backgroundColor = 'gray';
+    event.target.closest('body').style.opacity = '40%';
 };
 
 order.addEventListener('click', redirect);
