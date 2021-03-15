@@ -3,7 +3,7 @@ const book = document.getElementById('book');
 const welcome = document.getElementById('intro-para');
 const menu = document.getElementById('menu');
 
-const redirect = function() {
+const redirect = function(event) {
     if (event.target.closest('intro-para') === true) {
         welcome.innerHTML =
             `<div id="redirect">
@@ -19,3 +19,6 @@ const redirect = function() {
     };
     console.log('I ran!');
 };
+
+order.addEventListener('click', redirect());
+book.addEventListener('click', redirect());
