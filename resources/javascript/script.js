@@ -1,3 +1,3 @@
-let order = document.getElementById("order");
-let book = document.getElementById("book");
+const order = document.getElementById("order");
+const book = document.getElementById("book");
 
